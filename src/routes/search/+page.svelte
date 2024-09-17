@@ -6,8 +6,10 @@
 	import * as experiences from '@data/experience';
 	import * as projects from '@data/projects';
 	import * as skills from '@data/skills';
+	import { certificates } from '@data/certificate';
 
 	import type { Icon, Item, Skill } from '$lib/types';
+	import type { Certificate } from '$lib/data/certificate';
 
 	import SearchPage from '$lib/components/SearchPage.svelte';
 	import Chip from '$lib/components/Chip/Chip.svelte';
@@ -16,7 +18,7 @@
 	type SearchResultItem = {
 		icon: Icon;
 		name: string;
-		data: Item | Skill;
+		data: Item | Skill | Certificate;
 		to: string;
 	};
 
@@ -34,7 +36,7 @@
 	$: {
 		result = [];
 
-		// filter
+		// filter projects
 		result.push(
 			...filterItemsByQuery(projects.items, query).map<SearchResultItem>((data) => ({
 				data,
@@ -44,6 +46,7 @@
 			}))
 		);
 
+		// filter skills
 		result.push(
 			...filterItemsByQuery(
 				skills.items as unknown as Array<ItemOrSkill>,
@@ -56,12 +59,27 @@
 			}))
 		);
 
+		// filter experiences
 		result.push(
 			...filterItemsByQuery(experiences.items, query).map<SearchResultItem>((data) => ({
 				data,
 				icon: 'i-carbon-development',
 				name: `${data.name} @ ${data.company}`,
 				to: `experience/${data.slug}`
+			}))
+		);
+
+		// filter certificates
+		result.push(
+			...certificates.filter((cert) => 
+				cert.name.toLowerCase().includes(query.toLowerCase()) ||
+				cert.issuer.toLowerCase().includes(query.toLowerCase()) ||
+				cert.description.toLowerCase().includes(query.toLowerCase())
+			).map<SearchResultItem>((data) => ({
+				data,
+				icon: 'i-carbon-certificate',
+				name: data.name,
+				to: `certificate#${data.name.replace(/\s+/g, '-').toLowerCase()}`
 			}))
 		);
 	}

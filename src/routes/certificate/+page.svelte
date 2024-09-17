@@ -46,15 +46,14 @@
                         <p class="text-[var(--secondary-text)] mb-2">{certificate.issuer}</p>
                         <div class="flex justify-between items-center">
                             <Chip>{certificate.date.toLocaleDateString()}</Chip>
-                            <a 
-                                href={certificate.link} 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                class="text-[var(--accent-color)] hover:underline"
-                                on:click|stopPropagation
+                            <Chip
+                                on:click={(event) => {
+                                    event.stopPropagation();
+                                    window.open(certificate.link, '_blank', 'noopener,noreferrer');
+                                }}
                             >
                                 View Certificate
-                            </a>
+                            </Chip>
                         </div>
                     </Card>
                     
@@ -65,17 +64,24 @@
 </SearchPage>
 
 {#if selectedCertificate}
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div class="modal" on:click={closeModal}>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-static-element-interactions -->
         <div class="modal-content" on:click|stopPropagation>
             <img src={getAssetURL(selectedCertificate.image)} alt={selectedCertificate.name} class="modal-image" />
             <div class="modal-details">
                 <h2>{selectedCertificate.name}</h2>
                 <p>{selectedCertificate.issuer}</p>
                 <p>{selectedCertificate.description}</p>
-                <p>Date: {selectedCertificate.date.toLocaleDateString()}</p>
-                <a href={selectedCertificate.link} target="_blank" rel="noopener noreferrer" class="text-[var(--accent-color)] hover:underline">
+                <p>Date: {selectedCertificate?.date.toLocaleDateString()}</p>
+                <Chip
+                    on:click={() => selectedCertificate && window.open(selectedCertificate.link, '_blank', 'noopener,noreferrer')}
+                    classes="mt-4"
+                >
                     View Certificate
-                </a>
+                </Chip>
             </div>
             <button class="close-button" on:click={closeModal}>×</button>
         </div>
@@ -139,5 +145,9 @@
         .modal-image {
             max-height: 50vh;
         }
+    }
+
+    :global(.modal-details .chip) {
+        margin-top: 1rem;
     }
 </style>

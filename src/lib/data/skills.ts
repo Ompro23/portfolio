@@ -38,25 +38,15 @@ export const items = [
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
-		description:
-			'I had worked in Many projects using Js .',
+		description: 'I have worked on many projects using JavaScript, applying it in various web development contexts.',
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
 	}),
-	// defineSkill({
-	// 	slug: 'ts',
-	// 	color: 'blue',
-	// 	description:
-	// 		'I had worked very little in the TypeScript but when ever used it is deffinatly worth using',
-	// 	logo: Assets.TypeScript,
-	// 	name: 'Typescript',
-	// 	category: 'pro-lang'
-	// }),
 	defineSkill({
 		slug: 'Sql',
 		color: 'blue',
-		description: '',
+		description: 'I have used SQL in projects for database management and querying.',
 		logo: Assets.Sql,
 		name: 'Sql',
 		category: 'lang'
@@ -64,7 +54,7 @@ export const items = [
 	defineSkill({
 		slug: 'Git',
 		color: 'orange',
-		description: '',
+		description: 'I use Git for version control in all my projects, managing code collaboratively and efficiently.',
 		logo: Assets.Git,
 		name: 'Git',
 		category: 'lang'
@@ -72,7 +62,7 @@ export const items = [
 	defineSkill({
 		slug: 'Shell',
 		color: 'yellow',
-		description: '',
+		description: 'I have basic knowledge of shell scripting and use it for automation in my development workflow.',
 		logo: Assets.Shell,
 		name: 'Shell',
 		category: 'lang'
@@ -80,8 +70,7 @@ export const items = [
 	defineSkill({
 		slug: 'css',
 		color: 'blue',
-		description:
-			'',
+		description: 'I have extensive experience with CSS, using it in all my web development projects for styling and layout.',
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -89,8 +78,7 @@ export const items = [
 	defineSkill({
 		slug: 'html',
 		color: 'orange',
-		description:
-			'',
+		description: 'HTML is the foundation of all my web projects, and I have strong proficiency in creating structured, semantic markup.',
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -98,8 +86,7 @@ export const items = [
 	defineSkill({
 		slug: 'sass',
 		color: 'pink',
-		description:
-			'',
+		description: 'I have used Sass in projects to enhance my CSS workflow and create more maintainable stylesheets.',
 		logo: Assets.Sass,
 		name: 'Sass',
 		category: 'markup-style'
@@ -107,24 +94,15 @@ export const items = [
 	defineSkill({
 		slug: 'reactjs',
 		color: 'cyan',
-		description:
-			'',
+		description: 'I have built several projects using React.js, leveraging its component-based architecture for efficient UI development.',
 		logo: Assets.ReactJs,
 		name: 'React Js',
 		category: 'library'
 	}),
-	// defineSkill({
-	// 	slug: 'svelte',
-	// 	color: 'orange',
-	// 	description: svelte,
-	// 	logo: Assets.Svelte,
-	// 	name: 'Svelte',
-	// 	category: 'library'
-	// }),
 	defineSkill({
 		slug: 'python',
 		color: 'blue',
-		description: '',
+		description: 'I have used Python in various projects, particularly for backend development and data processing tasks.',
 		logo: Assets.Python,
 		name: 'Python',
 		category: 'pro-lang'
@@ -132,7 +110,7 @@ export const items = [
 	defineSkill({
 		slug: 'java',
 		color: 'red',
-		description: '',
+		description: 'I have experience with Java, having used it in academic projects and for Android app development.',
 		logo: Assets.Java,
 		name: 'Java',
 		category: 'pro-lang'
@@ -140,7 +118,7 @@ export const items = [
 	defineSkill({
 		slug: 'Php',
 		color: 'blue',
-		description: 'I implemtnted the basic concepts in the php fore the CURD operation and manadaging reviews',
+		description: 'I have implemented basic concepts in PHP for CRUD operations and managing reviews in web projects.',
 		logo: Assets.Php,
 		name: 'Php',
 		category: 'pro-lang'
@@ -148,7 +126,7 @@ export const items = [
 	defineSkill({
 		slug: 'Illustrator',
 		color: 'orange',
-		description: '',
+		description: 'I am learning the concepts of Illustrator for creating vector graphics and illustrations.',
 		logo: Assets.Illustrator,
 		name: 'Illustrator',
 		category: 'design'
@@ -156,7 +134,7 @@ export const items = [
 	defineSkill({
 		slug: 'Vite',
 		color: 'purple',
-		description: '',
+		description: 'I have used Vite in recent projects as a build tool for faster development and optimized production builds.',
 		logo: Assets.Vite,
 		name: 'Vite',
 		category: 'devtools'
@@ -164,23 +142,15 @@ export const items = [
 	defineSkill({
 		slug: 'Photoshop',
 		color: 'darkblue',
-		description: '',
+		description: 'I am learning Photoshop for image editing and manipulation, enhancing my design skills.',
 		logo: Assets.Photoshop,
 		name: 'Photoshop',
 		category: 'design'
 	}),
-	// defineSkill({
-	// 	slug: 'Tailwind',
-	// 	color: 'orange',
-	// 	description: '',
-	// 	logo: Assets.Tailwind,
-	// 	name: 'Tailwind',
-	// 	category: 'framework'
-	// }),
 	defineSkill({
 		slug: 'MongoDB',
 		color: 'lightgreen',
-		description: '',
+		description: 'I have used MongoDB in projects as a NoSQL database solution, particularly for web applications.',
 		logo: Assets.MongoDB,
 		name: 'MongoDB',
 		category: 'db'
@@ -188,23 +158,15 @@ export const items = [
 	defineSkill({
 		slug: 'Firebase',
 		color: 'yellow',
-		description: '',
+		description: 'I have integrated Firebase in projects for real-time database, authentication, and hosting services.',
 		logo: Assets.Firebase,
 		name: 'Firebase',
 		category: 'db'
 	}),
-	// defineSkill({
-	// 	slug: 'PostgreSQL',
-	// 	color: 'orange',
-	// 	description: '',
-	// 	logo: Assets.PostgreSQL,
-	// 	name: 'PostgreSQL',
-	// 	category: 'db'
-	// }),
 	defineSkill({
 		slug: 'Android',
 		color: 'green',
-		description: '',
+		description: 'I have developed Android applications using Java and the Android SDK.',
 		logo: Assets.Android,
 		name: 'Android',
 		category: 'pro-lang'
@@ -212,7 +174,7 @@ export const items = [
 	defineSkill({
 		slug: 'C',
 		color: 'white',
-		description: '',
+		description: 'I have a solid foundation in C programming, having used it in academic projects and algorithm implementations.',
 		logo: Assets.C,
 		name: 'C',
 		category: 'pro-lang'
@@ -220,7 +182,7 @@ export const items = [
 	defineSkill({
 		slug: 'Cpp',
 		color: 'white',
-		description: '',
+		description: 'I have experience with C++ from academic projects and competitive programming.',
 		logo: Assets.Cpp,
 		name: 'Cpp',
 		category: 'pro-lang'
@@ -228,7 +190,7 @@ export const items = [
 	defineSkill({
 		slug: 'Bootstrap',
 		color: 'purple',
-		description: '',
+		description: 'I have used Bootstrap in multiple web projects for responsive and mobile-first front-end development.',
 		logo: Assets.Bootstrap,
 		name: 'Bootstrap',
 		category: 'framework'
@@ -236,7 +198,7 @@ export const items = [
 	defineSkill({
 		slug: 'Flask',
 		color: 'white',
-		description: '',
+		description: 'I have built web applications using Flask, a lightweight Python web framework.',
 		logo: Assets.Flask,
 		name: 'Flask',
 		category: 'framework'
@@ -244,25 +206,23 @@ export const items = [
 	defineSkill({
 		slug: 'Postman',
 		color: 'orange',
-		description: '',
+		description: 'I use Postman for API testing and development in my projects.',
 		logo: Assets.Postman,
 		name: 'Postman',
 		category: 'devtools'
 	}),
-	
 	defineSkill({
 		slug: 'Nodejs',
 		color: 'lightgreen',
-		description: '',
+		description: 'I have used Node.js in several projects for server-side JavaScript development.',
 		logo: Assets.NodeJs,
 		name: 'Nodejs',
 		category: 'pro-lang'
 	}),
-	
 	defineSkill({
 		slug: 'ExpressJs',
 		color: 'gray',
-		description: '',
+		description: 'I have built RESTful APIs and web applications using Express.js on top of Node.js.',
 		logo: Assets.ExpressJs,
 		name: 'ExpressJs',
 		category: 'pro-lang'
@@ -270,7 +230,7 @@ export const items = [
 	defineSkill({
 		slug: 'FullPageJs',
 		color: 'lightgreen',
-		description: '',
+		description: 'I have used FullPage.js in projects to create full-screen scrolling websites.',
 		logo: Assets.Fullpage,
 		name: 'FullPageJs',
 		category: 'framework'
@@ -278,7 +238,7 @@ export const items = [
 	defineSkill({
 		slug: 'Arduino',
 		color: 'lightgreen',
-		description: '',
+		description: 'I have worked on Arduino projects, programming microcontrollers for various IoT and embedded systems applications.',
 		logo: Assets.Arduino,
 		name: 'Ardunio',
 		category: 'pro-lang'
@@ -286,12 +246,11 @@ export const items = [
 	defineSkill({
 		slug: 'Azure',
 		color: 'blue',
-		description: '',
+		description: 'I am learning Azure cloud services and their applications in modern software development.',
 		logo: Assets.azure,
 		name: 'Azure',
 		category: 'devops'
 	}),
-	
 ] as const;
 
 export const title = 'Skills';
