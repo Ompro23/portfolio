@@ -235,7 +235,7 @@ export const items = [
 		name: 'FullPageJs',
 		category: 'framework'
 	}),
-	,
+	
 	defineSkill({
 		slug: 'NextJs',
 		color: 'white',
@@ -267,7 +267,7 @@ export const items = [
 		logo: Assets.Docker,
 		name: 'Docker',
 		category: 'devops'
-	}),
+	})
 ] as const;
 
 export const title = 'Skills';
