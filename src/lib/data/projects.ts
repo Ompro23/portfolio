@@ -66,6 +66,9 @@ import ar7 from '../components/Screens/artemyx/h7.png';
 import ar8 from '../components/Screens/artemyx/h8.png';
 import ar9 from '../components/Screens/artemyx/h9.png';
 
+//bf
+import b1 from '../components/Screens/befriends/b1.png'
+
 export const items: Array<Project> = [
 	{
 		slug: 'NextJs',
@@ -86,7 +89,7 @@ export const items: Array<Project> = [
 			to: new Date(2024, 8, 1)
 		},
 		skills: getSkills('reactjs','NextJs','MongoDB'),
-		type: 'Website Template',
+		type: 'Web App',
 		screenshots: [
 			{
 				label: 'Hero Section',
