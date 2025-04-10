@@ -167,7 +167,7 @@ export const items: Array<Project> = [
 			to: new Date(2025, 1, 15)
 		},
 		skills: getSkills('Dart','Firebase'),
-		type: 'Web App',
+		type: 'Android App',
 		screenshots: [
 			{
 				label: 'Screens-1',
