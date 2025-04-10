@@ -107,14 +107,14 @@ export const items = [
 		name: 'Python',
 		category: 'pro-lang'
 	}),
-	defineSkill({
-		slug: 'java',
-		color: 'red',
-		description: 'I have experience with Java, having used it in academic projects and for Android app development.',
-		logo: Assets.Java,
-		name: 'Java',
-		category: 'pro-lang'
-	}),
+	// defineSkill({
+	// 	slug: 'java',
+	// 	color: 'red',
+	// 	description: 'I have experience with Java, having used it in academic projects and for Android app development.',
+	// 	logo: Assets.Java,
+	// 	name: 'Java',
+	// 	category: 'pro-lang'
+	// }),
 	defineSkill({
 		slug: 'Php',
 		color: 'blue',
@@ -171,14 +171,14 @@ export const items = [
 		name: 'Android',
 		category: 'pro-lang'
 	}),
-	defineSkill({
-		slug: 'C',
-		color: 'white',
-		description: 'I have a solid foundation in C programming, having used it in academic projects and algorithm implementations.',
-		logo: Assets.C,
-		name: 'C',
-		category: 'pro-lang'
-	}),
+	// defineSkill({
+	// 	slug: 'C',
+	// 	color: 'white',
+	// 	description: 'I have a solid foundation in C programming, having used it in academic projects and algorithm implementations.',
+	// 	logo: Assets.C,
+	// 	name: 'C',
+	// 	category: 'pro-lang'
+	// }),
 	defineSkill({
 		slug: 'Cpp',
 		color: 'white',
@@ -249,6 +249,14 @@ export const items = [
 		description: 'I am learning Azure cloud services and their applications in modern software development.',
 		logo: Assets.azure,
 		name: 'Azure',
+		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'Docker',
+		color: 'blue',
+		description: 'I have starter expereince with the docker for deploying on the docker hub',
+		logo: Assets.Docker,
+		name: 'Docker',
 		category: 'devops'
 	}),
 ] as const;
