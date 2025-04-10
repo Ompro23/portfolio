@@ -68,7 +68,7 @@ import ar9 from '../components/Screens/artemyx/h9.png';
 
 export const items: Array<Project> = [
 	{
-		slug: 'Artemyx',
+		slug: 'NextJs',
 		color: 'white',
 		description:
 			'I build a website for the AR based Fashion brand with amazing UI/UX and ecommerce functionality using next.js, Mongodb.',
