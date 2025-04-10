@@ -55,7 +55,85 @@ import bf9 from '../components/Screens/Beconnect/Screen9.png';
 import at1 from '../components/Screens/Attendace-system/cp.png';
 import at2 from '../components/Screens/Attendace-system/at2.png';
 
+//artemyx 
+import  ar1 from '../components/Screens/artemyx/h1.png';
+import ar2 from '../components/Screens/artemyx/h2.png';
+import ar3 from '../components/Screens/artemyx/h3.png';
+import ar4 from '../components/Screens/artemyx/h4.png';
+import ar5 from '../components/Screens/artemyx/h5.png';
+import ar6 from '../components/Screens/artemyx/h6.png';
+import ar7 from '../components/Screens/artemyx/h7.png';
+import ar8 from '../components/Screens/artemyx/h8.png';
+import ar9 from '../components/Screens/artemyx/h9.png';
+
 export const items: Array<Project> = [
+	{
+		slug: 'Artemyx',
+		color: 'white',
+		description:
+			'I build a website for the AR based Fashion brand with amazing UI/UX and ecommerce functionality using next.js, Mongodb.',
+		shortDescription: 'AR Fashion Brand Website with full ecommerce',
+		links: [
+			{
+				to: 'https://artemyx.vercel.app/',
+				label: 'live'
+			}
+		],
+		logo: Assets.NextJs,
+		name: 'Artemyx',
+		period: {
+			from: new Date(2024, 6, 1),
+			to: new Date(2024, 8, 1)
+		},
+		skills: getSkills('reactjs','NextJs','MongoDB'),
+		type: 'Website Template',
+		screenshots: [
+			{
+				label: 'Hero Section',
+				src: ar1
+			},
+			{
+				label: 'Intro Section',
+				src: ar2
+			}
+			,
+			{
+				label: 'Team Section',
+				src: ar3
+			}
+			,
+			{
+				label: 'Shop Section',
+				src: ar4
+			}
+			,
+			{
+				label: 'About Section',
+				src: ar5
+			}
+			,
+			{
+				label: 'Influ Section',
+				src: ar6
+			}
+			,
+			{
+				label: 'Checkout Section',
+				src: ar7
+			}
+			,
+			{
+				label: 'Admin Section',
+				src: ar8
+			}
+			,
+			{
+				label: 'T&C Section',
+				src: ar9
+			}
+
+		]
+	},
 	{
 		slug: 'Advance-Attendance-System',
 		color: 'green',

@@ -235,6 +235,15 @@ export const items = [
 		name: 'FullPageJs',
 		category: 'framework'
 	}),
+	,
+	defineSkill({
+		slug: 'NextJs',
+		color: 'white',
+		description: 'I have used next.js in projects for building modern UI.',
+		logo: Assets.NextJs,
+		name: 'NextJs',
+		category: 'framework'
+	}),
 	defineSkill({
 		slug: 'Arduino',
 		color: 'lightgreen',

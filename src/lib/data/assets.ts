@@ -57,6 +57,7 @@ const Assets = {
 	JavaScript: a('js.png'),
 	Fastify: a('fastify.svg', 'fastify-dark.png'),
 	NestJs: a('nest.svg'),
+	NextJs: a('nextwhite.png'),
 	Quasar: a('quasar.svg'),
 	SolidJs: a('solid.svg'),
 	Electron: a('electron.png'),
