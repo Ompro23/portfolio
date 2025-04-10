@@ -70,73 +70,73 @@ import ar9 from '../components/Screens/artemyx/h9.png';
 import b1 from '../components/Screens/befriends/b1.png'
 
 export const items: Array<Project> = [
-	// {
-	// 	slug: 'NextJs',
-	// 	color: 'white',
-	// 	description:
-	// 		'I build a website for the AR based Fashion brand with amazing UI/UX and ecommerce functionality using next.js, Mongodb.',
-	// 	shortDescription: 'AR Fashion Brand Website with full ecommerce',
-	// 	links: [
-	// 		{
-	// 			to: 'https://artemyx.vercel.app/',
-	// 			label: 'live'
-	// 		}
-	// 	],
-	// 	logo: Assets.NextJs,
-	// 	name: 'Artemyx',
-	// 	period: {
-	// 		from: new Date(2024, 6, 1),
-	// 		to: new Date(2024, 8, 1)
-	// 	},
-	// 	skills: getSkills('reactjs','NextJs','MongoDB'),
-	// 	type: 'Web App',
-	// 	screenshots: [
-	// 		{
-	// 			label: 'Hero Section',
-	// 			src: ar1
-	// 		},
-	// 		{
-	// 			label: 'Intro Section',
-	// 			src: ar2
-	// 		}
-	// 		,
-	// 		{
-	// 			label: 'Team Section',
-	// 			src: ar3
-	// 		}
-	// 		,
-	// 		{
-	// 			label: 'Shop Section',
-	// 			src: ar4
-	// 		}
-	// 		,
-	// 		{
-	// 			label: 'About Section',
-	// 			src: ar5
-	// 		}
-	// 		,
-	// 		{
-	// 			label: 'Influ Section',
-	// 			src: ar6
-	// 		}
-	// 		,
-	// 		{
-	// 			label: 'Checkout Section',
-	// 			src: ar7
-	// 		}
-	// 		,
-	// 		{
-	// 			label: 'Admin Section',
-	// 			src: ar8
-	// 		}
-	// 		,
-	// 		{
-	// 			label: 'T&C Section',
-	// 			src: ar9
-	// 		}
+	{
+		slug: 'NextJs',
+		color: 'white',
+		description:
+			'I build a website for the AR based Fashion brand with amazing UI/UX and ecommerce functionality using next.js, Mongodb.',
+		shortDescription: 'AR Fashion Brand Website with full ecommerce',
+		links: [
+			{
+				to: 'https://artemyx.vercel.app/',
+				label: 'live'
+			}
+		],
+		logo: Assets.NextJs,
+		name: 'Artemyx',
+		period: {
+			from: new Date(2024, 6, 1),
+			to: new Date(2024, 8, 1)
+		},
+		skills: getSkills('reactjs','NextJs','MongoDB'),
+		type: 'Web App',
+		screenshots: [
+			{
+				label: 'Hero Section',
+				src: ar1
+			},
+			{
+				label: 'Intro Section',
+				src: ar2
+			}
+			,
+			{
+				label: 'Team Section',
+				src: ar3
+			}
+			,
+			{
+				label: 'Shop Section',
+				src: ar4
+			}
+			,
+			{
+				label: 'About Section',
+				src: ar5
+			}
+			,
+			{
+				label: 'Influ Section',
+				src: ar6
+			}
+			,
+			{
+				label: 'Checkout Section',
+				src: ar7
+			}
+			,
+			{
+				label: 'Admin Section',
+				src: ar8
+			}
+			,
+			{
+				label: 'T&C Section',
+				src: ar9
+			}
 
-	// 	]
-	// },
+		]
+	},
 	{
 		slug: 'Advance-Attendance-System',
 		color: 'green',
