@@ -123,6 +123,26 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Microsoft,
 		shortDescription: 'Spread awerness to the microsoft technology.'
+	},{
+		slug: 'Full Stack Developer',
+		company: 'HAZHTEQ INNOVATIONS',
+		description: 'Develpoing the new infrastructure and ecosystem.<br><br>'+
+		'<b>Accomplishments:</b>'+
+		'<ul type="disc">'+
+		'<li>Developing new App.</li>'+
+		'<li>Updating new Infrastructure.</li>'+
+		'</ul>'
+		,
+		contract: ContractType.PartTime,
+		type: 'Full Stack Development',
+		location: 'Vadodara',
+		period: { from: new Date(2024, 9, 1)},
+		skills: getSkills('css', 'html', 'js','Php','Dart','Firebase','NextJs','reactjs','MongoDB','Flask'),
+		name: 'Full Stack Developer',
+		color: 'white',
+		links: [{ to: 'https://technograil.in/bsos/', label: 'Live' }],
+		logo: Assets.Haztech,
+		shortDescription: 'Developing new infrastructure'
 	},
 	
 	

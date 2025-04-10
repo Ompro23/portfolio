@@ -12,8 +12,7 @@ export const description =
 	'BCA Computer Science student at Maharaja Sayajirao University ' +
 	'(MSU). I have a passion for innovation and problem-solving, and I ' +
 	'enjoy exploring and mastering various tech stacks. ' +
-	'As the founder of God² Tech Hub, I lead collaborative initiatives ' +
-	'that drive technological advancements in our community. '
+	'I Love to learn new technologies and know more about advancements. ' 
 	;
 
 export const links: Array<{ platform: Platform; link: string }> = [
