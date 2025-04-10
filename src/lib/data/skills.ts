@@ -267,6 +267,14 @@ export const items = [
 		logo: Assets.Docker,
 		name: 'Docker',
 		category: 'devops'
+	}),
+	defineSkill({
+		slug: 'Dart',
+		color: 'blue',
+		description: 'I have starter expereince with the dart for developing the Flutter Application',
+		logo: Assets.Dart,
+		name: 'Dart',
+		category: 'pro-lang'
 	})
 ] as const;
 

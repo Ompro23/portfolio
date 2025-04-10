@@ -67,7 +67,18 @@ import ar8 from '../components/Screens/artemyx/h8.png';
 import ar9 from '../components/Screens/artemyx/h9.png';
 
 //bf
-import b1 from '../components/Screens/befriends/b1.png'
+import b1 from '../components/Screens/befriends/b1.png';
+import b2 from '../components/Screens/befriends/b2.png';
+import b3 from '../components/Screens/befriends/b3.png';
+import b4 from '../components/Screens/befriends/b4.png';
+import b5 from '../components/Screens/befriends/b5.png';
+import b6 from '../components/Screens/befriends/b6.png';
+import b7 from '../components/Screens/befriends/b7.png';
+import b8 from '../components/Screens/befriends/b8.png';
+import b9 from '../components/Screens/befriends/b9.png';
+import b10 from '../components/Screens/befriends/b10.png';
+import b11 from '../components/Screens/befriends/b11.png';
+
 
 export const items: Array<Project> = [
 	{
@@ -133,6 +144,83 @@ export const items: Array<Project> = [
 			{
 				label: 'T&C Section',
 				src: ar9
+			}
+
+		]
+	},
+	{
+		slug: 'Befriends',
+		color: 'blue',
+		description:
+			'I built one Flutter App for befriends using the flutter with firebase for full feature integration',
+		shortDescription: 'Befriends Full App',
+		links: [
+			// {
+			// 	to: 'https://artemyx.vercel.app/',
+			// 	label: 'live'
+			// }
+		],
+		logo: Assets.Dart,
+		name: 'Befriends',
+		period: {
+			from: new Date(2024, 9, 1),
+			to: new Date(2025, 1, 15)
+		},
+		skills: getSkills('Dart','Firebase'),
+		type: 'Web App',
+		screenshots: [
+			{
+				label: 'Screens-1',
+				src: b1
+			},
+			{
+				label: 'Screen-2',
+				src: b2
+			}
+			,
+			{
+				label: 'Screens-3',
+				src: b3
+			}
+			,
+			{
+				label: 'Screens-4',
+				src: b4
+			}
+			,
+			{
+				label: 'Screens-5',
+				src: b5
+			}
+			,
+			{
+				label: 'Screens-6',
+				src: b6
+			}
+			,
+			{
+				label: 'Screens-7',
+				src: b7
+			}
+			,
+			{
+				label: 'Screens-8',
+				src: b8
+			}
+			,
+			{
+				label: 'Screens-9',
+				src: b9
+			}
+			,
+			{
+				label: 'Screens-10',
+				src: b10
+			}
+			,
+			{
+				label: 'Screens-11',
+				src: b11
 			}
 
 		]
